@@ -38,7 +38,7 @@ files = files + files2
 
 if "macosx" in sysconfig.get_platform() or "darwin" in sysconfig.get_platform():
     libraries = ['fftw3fmac','fftw3f_ompmac']
-    comp_args = ["-03"] if platform.machine() == 'arm64' else ["-mavx","-O3"]
+    comp_args = ["-O3"] if platform.machine() == 'arm64' else ["-mavx","-O3"]
     link_args = ["-lomp"]
 
 if "linux" in sysconfig.get_platform():
