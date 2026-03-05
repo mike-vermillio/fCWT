@@ -7,6 +7,7 @@ setup.py file for SWIG
 from setuptools import Extension, setup, find_packages
 import sysconfig
 import numpy
+import platform
 
 
 # Obtain the numpy include directory.  This logic works across numpy versions.
