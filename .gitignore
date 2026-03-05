@@ -209,6 +209,6 @@ pyrightconfig.json
 # End of https://www.toptal.com/developers/gitignore/api/c++,python
 
 # include libs
-!libs/
-!libs/arm64/
-!libs/x86_64/
+!libs/*
+!libs/arm64/*
+!libs/x86_64/*
