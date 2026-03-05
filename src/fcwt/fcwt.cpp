@@ -37,6 +37,7 @@ limitations under the License.
 */
 
 #include <cassert>
+#include <cstring>
 #include "fcwt.h"
 
 Morlet::Morlet(float bandwidth) {
